@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>S2 Academic Research Advisor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="background-animation"></div>
+  <div class="container">
+    <header class="chat-header">
+      <div class="avatar">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 7L12 12L21 8V17H23V7L12 2ZM12 14.5L3.5 10.5V14.5L12 18.5L20.5 14.5V10.5L12 14.5Z"></path></svg>
+      </div>
+      <div class="header-info">
+        <h1>S2 Research Advisor</h1>
+        <p>AI Mentor for Master's Thesis</p>
+      </div>
+    </header>
+    
+    <div id="chat-box" class="chat-box">
+      <div class="message bot">
+        <div class="message-content">
+          Halo! Saya Academic Research Advisor virtual Anda. Ada yang bisa saya bantu terkait penentuan atau pemantapan topik tesis S2 Anda hari ini?
+        </div>
+      </div>
+    </div>
+    
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Ketik pesan Anda di sini..." autocomplete="off" required />
+      <button type="submit">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M2 21L23 12L2 3V10L17 12L2 14V21Z"></path></svg>
+      </button>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
